@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -8,7 +8,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Coffee, Cup, Star } from "lucide-react";
+import { Coffee, CupSoda, Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -83,7 +83,7 @@ export default function LandingPage() {
           title="Signature Drinks"
           description="Explore our handcrafted menu of specialty coffee drinks, each created with premium ingredients and expertise."
           tag="Menu"
-          tagIcon={Cup}
+          tagIcon={CupSoda}
           products={[
             {
               id: "1",
